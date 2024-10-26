@@ -1,0 +1,108 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        whitesmoke: "#f6f8fb",
+        gray: {
+          "100": "#0b091b",
+          "200": "rgba(255, 255, 255, 0.6)",
+          "300": "rgba(0, 0, 0, 0.6)",
+          "400": "rgba(255, 255, 255, 0.84)",
+          "500": "rgba(255, 255, 255, 0.66)",
+          "600": "rgba(0, 0, 0, 0.25)",
+          "700": "rgba(11, 9, 27, 0.4)",
+        },
+        gainsboro: {
+          "100": "#e6e6e6",
+          "200": "#dedee0",
+          "300": "#ddd",
+          "400": "#d9d9d9",
+        },
+        black: "#000",
+        white: "#fff",
+        green: "#1ad079",
+        mediumseagreen: {
+          "100": "#00b861",
+          "200": "rgba(0, 184, 97, 0.09)",
+          "300": "rgba(0, 184, 97, 0.06)",
+        },
+        mediumspringgreen: {
+          "100": "rgba(26, 208, 121, 0.09)",
+          "200": "rgba(26, 208, 121, 0.06)",
+          "300": "rgba(26, 208, 121, 0.17)",
+        },
+        dimgray: "#606060",
+        darkslategray: {
+          "100": "#343434",
+          "200": "rgba(16, 43, 62, 0.63)",
+          "300": "rgba(16, 43, 62, 0.53)",
+        },
+        silver: "#c4c4c4",
+      },
+      spacing: {},
+      fontFamily: {
+        poppins: "Poppins",
+        rubik: "Rubik",
+      },
+      borderRadius: {
+        "21xl": "40px",
+        "33xl": "52px",
+        "17xl": "36px",
+        "4xs": "9px",
+        lg: "18px",
+        "14xl": "33px",
+        lgi: "19px",
+        "3xs": "10px",
+        "47xl": "66px",
+        "31xl": "50px",
+        "2xl": "21px",
+        "11xl": "30px",
+      },
+    },
+    fontSize: {
+      base: "16px",
+      xl: "20px",
+      mid: "17px",
+      "3xl": "22px",
+      lg: "18px",
+      "7xl": "26px",
+      "2xl": "21px",
+      "31xl": "50px",
+      "11xl": "30px",
+      "21xl": "40px",
+      "5xl": "24px",
+      lgi: "19px",
+      "8xl": "27px",
+      "36xl": "55px",
+      "14xl": "33px",
+      "25xl": "44px",
+      "19xl": "38px",
+      "4xl": "23px",
+      mini: "15px",
+      "13xl": "32px",
+      "39xl": "58px",
+      "16xl": "35px",
+      "27xl": "46px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq1425: {
+        raw: "screen and (max-width: 1425px)",
+      },
+      lg: {
+        max: "1200px",
+      },
+      mq825: {
+        raw: "screen and (max-width: 825px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
