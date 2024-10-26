@@ -1,0 +1,240 @@
+.log-in {
+  white-space: nowrap;
+}
+.enter-to-continue1,
+.log-in {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.exploration-message,
+.number-badge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  font-size: var(--font-size-sm-9);
+  color: var(--color-midnightblue-400);
+}
+.number-badge1 {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-4xl-9);
+  max-width: 100%;
+  font-size: var(--font-size-33xl-2);
+  color: var(--color-midnightblue-200);
+}
+.email-addres2,
+.youraddresemailcom1 {
+  position: relative;
+  display: inline-block;
+}
+.email-addres2 {
+  min-width: 85.3px;
+}
+.youraddresemailcom1 {
+  width: 241px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-xl-9);
+  background-color: transparent;
+  height: 28px;
+  color: var(--color-midnightblue-400);
+  text-align: left;
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.email-separator-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.email-addres-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+  gap: var(--gap-mid-3);
+}
+.password4 {
+  position: relative;
+  display: inline-block;
+  min-width: 63.6px;
+}
+.enter-your-password1 {
+  position: relative;
+  font-weight: 600;
+  
+}
+.eyes-icon1 {
+  width: 27.9px;
+  height: 24.4px;
+  position: relative;
+}
+.password-visibility {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-3) 0 0;
+}
+.password-input2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl-9);
+}
+.password-separator-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.password-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) var(--padding-5xs-8) 0;
+  gap: var(--gap-mid);
+}
+.login-button-background,
+.login-button-background1 {
+  height: 81.8px;
+  width: 424.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: -8.7px;
+  right: -9.6px;
+  border-radius: 8.71px;
+  background-color: var(--color-blueviolet-100);
+}
+.login-button-background1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(43.54px);
+  background-color: var(--color-blueviolet-200);
+  z-index: 1;
+}
+.login-to-continue2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.login-button-container,
+.login-signup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.login-button-container {
+  flex: 1;
+  justify-content: center;
+  padding: var(--padding-lg-3) var(--padding-xl) var(--padding-15xl-8);
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.login-signup {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.sign-up3 {
+  color: var(--color-blueviolet-100);
+}
+.dont-have-an-container2 {
+  position: relative;
+  font-size: var(--font-size-sm-9);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  color: var(--color-midnightblue-200);
+}
+.action-container,
+.action-container-wrapper,
+.number-badge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.action-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-17xl-6);
+}
+.action-container-wrapper,
+.number-badge {
+  align-self: stretch;
+}
+.action-container-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl-9);
+  color: var(--color-white);
+}
+.number-badge {
+  flex-direction: column;
+  gap: var(--gap-43xl-7);
+  text-align: left;
+  font-size: var(--font-size-sm-9);
+  color: var(--color-midnightblue-400);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .log-in {
+    font-size: var(--font-size-23xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .log-in {
+    font-size: var(--font-size-12xl);
+  }
+  .enter-your-password1,
+  .login-to-continue2,
+  .youraddresemailcom1 {
+    font-size: var(--font-size-mid);
+  }
+  .action-container {
+    gap: var(--gap-lg);
+  }
+  .number-badge {
+    gap: var(--gap-12xl);
+  }
+}
+#input{
+  width: 241px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-xl-9);
+  background-color: transparent;
+  height: 28px;
+  color: var(--color-midnightblue-400);
+  text-align: left;
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 0;
+}

@@ -1,0 +1,66 @@
+.email-addres1,
+.frame-item {
+  position: absolute;
+  margin: 0 !important;
+}
+.frame-item {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs-6);
+  border: 1.7px solid var(--color-midnightblue-100);
+  box-sizing: border-box;
+  opacity: 0.3;
+}
+.email-addres1 {
+  top: -9.5px;
+  left: 55px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 2;
+}
+.ladushing691gmailcom {
+  position: relative;
+  font-size: var(--font-size-xl-6);
+  font-weight: 600;
+  color: var(--color-midnightblue-100);
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent,
+.register-form-fields-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  flex: 1;
+  padding: var(--padding-7xl-7) var(--padding-33xl) var(--padding-8xl);
+  position: relative;
+}
+.register-form-fields-inner {
+  width: 374.5px;
+  padding: 0 var(--padding-10xs);
+  text-align: left;
+  font-size: var(--font-size-sm-8);
+  color: var(--color-midnightblue-600);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .ladushing691gmailcom {
+    font-size: var(--font-size-base);
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

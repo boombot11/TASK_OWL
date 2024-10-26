@@ -1,0 +1,266 @@
+.get-started-with {
+  position: relative;
+}
+.free-register-and {
+  position: relative;
+  font-size: var(--font-size-xl-6);
+  color: var(--color-midnightblue-500);
+}
+.register-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs-2);
+  gap: var(--gap-sm-2);
+  font-size: var(--font-size-15xl-4);
+}
+.frame-inner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs-6);
+  border: 1.7px solid var(--color-midnightblue-100);
+  box-sizing: border-box;
+  opacity: 0.3;
+}
+.div,
+.password2 {
+  display: inline-block;
+}
+.password2 {
+  position: absolute;
+  margin: 0 !important;
+  top: -9.4px;
+  left: 67.9px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  min-width: 71px;
+  z-index: 2;
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-15xl-4);
+  letter-spacing: 0.14em;
+  font-weight: 800;
+  color: var(--color-midnightblue-100);
+  min-width: 97px;
+  z-index: 3;
+}
+.rectangle-group,
+.register-form-fields-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-group {
+  flex: 1;
+  padding: var(--padding-3xs-5) var(--padding-33xl) var(--padding-6xl-2);
+  position: relative;
+}
+.register-form-fields-child {
+  width: 374.5px;
+  padding: 0 var(--padding-10xs) var(--padding-8xs-4);
+  color: var(--color-midnightblue-600);
+}
+.sign-up-button-child,
+.sign-up-button-item {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-67xl);
+}
+.sign-up-button-child {
+  height: 67.9px;
+  width: 207.3px;
+  top: -13.8px;
+  left: calc(50% - 103.65px);
+  background-color: var(--color-mediumblue-100);
+}
+.sign-up-button-item {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(43px);
+  background-color: var(--color-mediumblue-200);
+  z-index: 1;
+}
+.sign-up1 {
+  position: relative;
+  font-size: var(--font-size-xl-6);
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 72.2px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.sign-up-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-32xl) var(--padding-14xl-5);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.or {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 20px;
+}
+.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm-8) var(--padding-9xs) 0 0;
+}
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 5.3px 5.3px 13.25px rgba(0, 0, 0, 0.13);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.image-4-icon {
+  position: absolute;
+  top: 14.6px;
+  left: 13.9px;
+  width: 19.9px;
+  height: 19.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent {
+  height: 49px;
+  width: 49px;
+  position: relative;
+}
+.frame-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 5.3px 5.3px 13.25px rgba(0, 0, 0, 0.13);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.vector-icon2 {
+  position: absolute;
+  top: 11.1px;
+  left: 11.2px;
+  width: 26.7px;
+  height: 26.7px;
+  z-index: 1;
+}
+.ellipse-group {
+  height: 49px;
+  width: 49px;
+  position: relative;
+}
+.social-login-icons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 110px;
+  gap: var(--gap-xl);
+}
+.social-login-options {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-23xl-1);
+  max-width: 100%;
+}
+.register-form-fields,
+.social-login-options,
+.social-login1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.social-login1 {
+  width: 425.6px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl-6);
+}
+.register-form-fields {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-37xl-7);
+  max-width: calc(100% - 753px);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-sm-8);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1100px) {
+  .register-form-fields {
+    display: none;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .div,
+  .get-started-with {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .register-form-fields {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .get-started-with {
+    font-size: var(--font-size-2xl);
+  }
+  .free-register-and {
+    font-size: var(--font-size-base);
+  }
+  .div {
+    font-size: var(--font-size-2xl);
+  }
+  .or,
+  .sign-up1 {
+    font-size: var(--font-size-base);
+  }
+  .social-login-options {
+    gap: var(--gap-2xl);
+  }
+}
+input{
+  border: none;      
+  outline: none;     
+  padding: 10px;     
+  font-size: 16px;   
+  border-radius: 5px; 
+}

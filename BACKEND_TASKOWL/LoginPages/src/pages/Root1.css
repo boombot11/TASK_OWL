@@ -1,0 +1,398 @@
+.img-here-item,
+.img-here1 {
+  background-color: var(--color-silver);
+}
+.img-here-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.img-here1 {
+  height: 1024px;
+  width: 655px;
+  position: relative;
+  min-width: 655px;
+  max-width: 100%;
+}
+.sign-in {
+  color: var(--color-slateblue);
+}
+.do-you-have-container {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.sign-in-credentials {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.create-account {
+  position: relative;
+  font-size: 35.1px;
+  font-family: var(--font-open-sans);
+  color: var(--color-midnightblue-200);
+  text-align: left;
+}
+.able-to-explore,
+.follow-the-instructions {
+  display: block;
+}
+.follow-the-instructions-container {
+  margin: 0;
+  position: relative;
+  font-size: 14px;
+  font-family: var(--font-open-sans);
+  color: var(--color-midnightblue-400);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.username-field-child {
+  height: 76.3px;
+  width: 491.1px;
+  position: relative;
+  border-radius: 8.77px;
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.vector-icon {
+  width: 16.7px;
+  height: 17.7px;
+  position: relative;
+  z-index: 1;
+}
+.username-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.7px 0 0;
+}
+.username {
+  position: relative;
+  font-size: var(--font-size-base-8);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-midnightblue-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.username-field,
+.username-field-item {
+  border-radius: 8.77px;
+  background-color: var(--color-whitesmoke);
+  max-width: 100%;
+}
+.username-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl-2) var(--padding-21xl) var(--padding-8xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-16xl-9);
+}
+.username-field-item {
+  height: 76.3px;
+  width: 491.1px;
+  position: relative;
+  display: none;
+}
+.group-icon {
+  width: 15.8px;
+  height: 14.9px;
+  position: relative;
+  z-index: 1;
+}
+.group-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.5px 0 0;
+}
+.email {
+  width: 42.1px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-base-8);
+  background-color: transparent;
+  height: 21.9px;
+  position: relative;
+  color: var(--color-midnightblue-400);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.account-fields,
+.input-fields,
+.registration-guidance,
+.username-field1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.username-field1 {
+  border-radius: 8.77px;
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: var(--padding-8xl-2) 41px;
+  box-sizing: border-box;
+  gap: var(--gap-16xl-9);
+}
+.account-fields,
+.input-fields,
+.registration-guidance {
+  flex-direction: column;
+  gap: 25.4px;
+}
+.account-fields,
+.registration-guidance {
+  gap: 29px;
+}
+.account-fields {
+  gap: 19.2px;
+}
+.password-field-child {
+  height: 76.3px;
+  width: 491.1px;
+  position: relative;
+  border-radius: 8.77px;
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.password,
+.password-icon {
+  position: relative;
+  z-index: 1;
+}
+.password-icon {
+  height: 18.4px;
+  width: 14px;
+}
+.password {
+  font-size: var(--font-size-base-8);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-midnightblue-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 74px;
+}
+.password-field,
+.password-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.password-input {
+  flex-direction: column;
+  padding: 1.8px 0 0;
+}
+.password-field {
+  align-self: stretch;
+  border-radius: 8.77px;
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: 25.4px 42px var(--padding-8xl-1);
+  box-sizing: border-box;
+  gap: 36.8px;
+  max-width: 100%;
+}
+.create-account-action-child {
+  height: 76.3px;
+  width: 491.1px;
+  position: relative;
+  border-radius: 8.77px;
+  background-color: var(--color-slateblue);
+  display: none;
+  max-width: 100%;
+}
+.create-account1 {
+  position: relative;
+  font-size: var(--font-size-base-8);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 1;
+}
+.account-instructions,
+.create-account-action {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.create-account-action {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl-1) var(--padding-xl) var(--padding-8xl-2)
+    var(--padding-2xl);
+  background-color: var(--color-slateblue);
+  border-radius: 8.77px;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.create-account-action:hover {
+  background-color: #576ee8;
+}
+.account-instructions {
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 26.4px;
+  flex-shrink: 0;
+}
+.facebook-icon,
+.google-icon {
+  align-self: stretch;
+  width: 232.6px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 66px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.social-login {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  gap: 20.8px;
+}
+.account-creation,
+.sign-in-form {
+  align-self: stretch;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.account-creation {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 16px 0 0;
+  gap: 33.2px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.sign-in-form {
+  height: 774.6px;
+  padding: 0 0 752.6px;
+  gap: 125.2px;
+}
+.root2,
+.sign-in-form,
+.sign-in-form-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sign-in-form-wrapper {
+  width: 507.5px;
+  flex-direction: column;
+  padding: 59px 0 0;
+  box-sizing: border-box;
+  min-width: 507.5px;
+  max-width: 100%;
+}
+.root2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  gap: 109.5px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-midnightblue-200);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .img-here1 {
+    flex: 1;
+  }
+  .sign-in-form {
+    padding-bottom: 489px;
+    box-sizing: border-box;
+  }
+  .sign-in-form-wrapper {
+    flex: 1;
+  }
+  .root2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sign-in-form-wrapper {
+    padding-top: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .img-here1 {
+    min-width: 100%;
+  }
+  .create-account {
+    font-size: var(--font-size-9xl);
+  }
+  .social-login {
+    flex-wrap: wrap;
+  }
+  .account-creation {
+    gap: var(--gap-mid);
+  }
+  .sign-in-form {
+    height: auto;
+    gap: 63px;
+    padding-bottom: 318px;
+    box-sizing: border-box;
+  }
+  .sign-in-form-wrapper {
+    min-width: 100%;
+  }
+  .root2 {
+    gap: 55px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .create-account {
+    font-size: var(--font-size-2xl);
+  }
+  .sign-in-form {
+    gap: var(--gap-12xl);
+  }
+  .sign-in-form-wrapper {
+    padding-top: 25px;
+    box-sizing: border-box;
+  }
+  .root2 {
+    gap: 27px;
+  }
+}
